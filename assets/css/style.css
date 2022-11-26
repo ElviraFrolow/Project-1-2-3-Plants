@@ -1,0 +1,143 @@
+@font-face {
+  font-family: Fredericka-The-Great;
+  src: url(../fonts/Fredericka_the_Great/FrederickatheGreat-Regular.ttf);
+}
+
+@font-face {
+  font-family: Open-Sans;
+  src: url(../fonts/Open_Sans/static/OpenSans_SemiCondensed/OpenSans_SemiCondensed-Regular.ttf);
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+/* ******  Header Section  *****************************/
+
+header {
+  background-image: url(../img/Lev3_2_css-einführung_box-model_img.jpeg);
+  object-fit: cover;
+  height: 100vh;
+  width: 100vw;
+  color: white;
+}
+
+/* ******  Header Content Box  *****************************/
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: Open-Sans;
+}
+
+h1 {
+  font-family: Fredericka-The-Great;
+  padding: 1rem;
+  font-size: 3rem;
+  color: white;
+}
+
+h2 {
+  color: white;
+  font-size: 2.5rem;
+  font-family: Fredericka-The-Great;
+  line-height: 3rem;
+}
+
+.flex-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 70vh;
+}
+
+header article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  line-height: 5rem;
+  background-color: rgba(0, 0, 0, 0.661);
+  width: 30vw;
+  min-height: 20vw;
+  padding: 2rem;
+}
+
+header article div {
+  border: 1px solid white;
+  padding: 0rem 2rem;
+  margin-top: 2rem;
+  font-size: 1.5rem;
+}
+
+article p {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  margin-top: 1.5rem;
+}
+
+span {
+  font-family: Fredericka-The-Great;
+}
+
+/* ******  Header Navigation  *****************************/
+
+header nav ul {
+  text-align: right;
+  font-size: 1.8rem;
+  padding: 2rem;
+  list-style: none;
+  margin: 0rem 5rem;
+  line-height: 3rem;
+}
+
+/* ******  Main Section  *****************************/
+
+main {
+  text-align: center;
+  padding: 5rem 30rem;
+}
+
+h3 {
+  font-family: Fredericka-The-Great;
+  font-size: 3rem;
+}
+
+main div {
+  display: inline-block;
+  border: 4px double black;
+  width: 15vw;
+  margin-top: 3rem;
+  padding-bottom: 1.5rem;
+}
+
+/* ******  Footer Section  *****************************/
+
+footer {
+  background-color: rgb(58, 58, 58);
+  padding: 2rem;
+  color: white;
+  font-size: 1.2rem;
+  line-height: 4rem;
+}
+
+footer > a {
+  border: 1px solid white;
+  padding: 1rem 2rem;
+}
+
+footer div {
+  text-align: right;
+}
+
+footer div a {
+  padding: 0rem 0.5rem;
+}
